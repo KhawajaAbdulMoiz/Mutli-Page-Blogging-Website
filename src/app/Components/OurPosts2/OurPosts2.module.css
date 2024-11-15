@@ -1,21 +1,24 @@
-.contianer{
+.contianer2{
     border-radius: 20px;
     padding: 50px 5%;
     margin: 25% 30%;
     position: absolute;
-    top: 0;
     left: 0;
     background-color: aliceblue;
     height: 390px;
     width: 960px;
+    
 
 }
+
 
 .recent_post_heading {
     font-size: 32px;
     font-weight: bold;
     font-family: var(--font);
     color: var(--secondary-color);
+    gap: 20px;
+
 }
 .recent_post_text {
     font-size: 16px;
@@ -29,23 +32,11 @@
     border-radius: 9px;
     padding: 1% 2%;
     border: 1px solid var(--primary-color);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease;
 }
 
 .rp__button:hover {
     transform: translate(0, -2px);
     transition: transform 0.5s ease;
     
-}
-.main_heading {
-    
-    margin-top: 22%;
-    margin-left: 5rem;
-    padding: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size: 48px;
-    font-weight: bold;
-    font-family: Raleway;
-      
 }

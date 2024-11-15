@@ -9,10 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        customPurple: '#7C4EE4',
+        font: "Raleway",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
+  
   plugins: [],
 } satisfies Config;
