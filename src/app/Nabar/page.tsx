@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Image from 'next/image';
 import styles from './Nabar.module.css';
@@ -28,10 +29,11 @@ function Navbar() {
         
         <li className={styles.navbar__li}>About</li>
       </ul>
-     
+      <Link href="/Contact">
       <button className={styles.navbar__button}>
         Contact Us
       </button>
+      </Link>
       
     </div>
   );

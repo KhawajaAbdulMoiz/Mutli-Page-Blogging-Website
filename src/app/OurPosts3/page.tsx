@@ -1,4 +1,4 @@
-// pages/index.js
+
 import Card from './card.js';
 
 export default function Blog3() {
