@@ -27,7 +27,7 @@ export default function Blog3() {
             </div>
 
             {/* BLOG SECTION */}
-            <h1 className="mt-[12%] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[48px] font-200 font-raleway text-black">Popular Post</h1>
+            <h1 className="mt-[12%] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[48px] font-200 font-raleway text-black sm: text-[22px] font-bold pl-[0rem]">Popular Post</h1>
             <div className="flex flex-wrap justify-center">
                 <Card
                     image="/blg1.jpg"

@@ -9,7 +9,7 @@ function OurPosts() {
                 alt="Logo"
                 width={1232}
                 height={576}
-                className='ml-[12%]'
+                className='ml-[1%]'
 
             />
             <div className='mt-12 p-4 w-1/2'>

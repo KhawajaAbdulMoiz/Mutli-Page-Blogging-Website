@@ -21,5 +21,8 @@
     background-color: #7C4EE4; 
     border-radius: 10px; 
   }
+  body{
+    overflow-x: hidden;
+  }
 
 

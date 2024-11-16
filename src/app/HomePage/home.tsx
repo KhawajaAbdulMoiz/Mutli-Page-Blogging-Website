@@ -14,10 +14,10 @@ function HomePage() {
        </div>
        <div>
       <Image 
-        src="/robot.png"  
+        src="/mainimg.png"  
         alt="Logo"
-        width={208}   
-        height={576}  
+        width={436.56}   
+        height={350}  
         className={styles.main_image}
       />
        </div>
