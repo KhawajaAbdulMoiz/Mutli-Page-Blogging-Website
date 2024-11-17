@@ -1,5 +1,4 @@
 import Card from '@/app/OurPosts3/card.js';
-import Link from 'next/link';
 
 
 import React from 'react'

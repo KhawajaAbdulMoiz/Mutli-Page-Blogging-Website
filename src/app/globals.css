@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-    --primary-color: #7C4EE4;
-    --text-color: #FAFAFA;
-    --secondary-color: #111111;
-    --font-size: 16px;
-    --padding: 20px;
-    --font: Raleway
-  }
+  --primary-color: #7C4EE4;
+  --text-color: #FAFAFA;
+  --secondary-color: #111111;
+  --font-size: 16px;
+  --padding: 20px;
+  --font: Raleway
+}
   ::-webkit-scrollbar {
     width: 8px; 
     height: 8px;

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Raleway } from 'next/font/google'
  
 import Link from 'next/link';
 const Card = ({ image, category, title, description}) => {
