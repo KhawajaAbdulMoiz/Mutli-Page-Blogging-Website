@@ -1,5 +1,3 @@
-
-
 import styles from '@/app/RecentPost/Recent-Post.module.css';
 import '@/app/OurPosts2/OurPosts2.module.css'
 import React from 'react'
@@ -18,10 +16,10 @@ function Blogs2() {
                 alt="Logo"
                 width={712}
                 height={456}
-                className='ml-[12%] md: hidden'
+                className='ml-[12%]'
 
             />
-     <div className='mt-12 p-8 w-1/2 md: hidden'>
+     <div className='mt-12 p-8 w-1/2'>
                 <div className={styles.contianer2}>
                     <h4 className={styles.recent_post_text}>Developement</h4>
                     <h2 className={styles.recent_post_text}>How to make a Game look more attractive with New <br />VR & AI Technology</h2>
