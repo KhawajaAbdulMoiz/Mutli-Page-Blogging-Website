@@ -3,15 +3,13 @@ import Card from '@/app/OurPosts3/card';
 import Link from 'next/link';
 import React from 'react'
 
-function AllBlogs() {
+function AllBlog() {
   return (
     
        <div className="container mx-auto p-4 mt-10">
            
             {/* BLOG SECTION */}
-            <h3 className="text-center mt-[2%] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-black sm:text-[22px] pl-[0rem]">OUR BLOGS</h3>
-            <h1 className="text-center ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[48px] font-200 font-raleway text-black sm:text-[22px] font-bold pl-[0rem]">Find our all blogs from here</h1>
-            <h3 className="text-center mt-[2%] mb-[110px] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-black sm:text-[22px] pl-[0rem]">our blogs are written from very research research and well known writers writers so that  we can provide <br />you the best blogs and articles articles for you to read them all along</h3>
+           
             <div className="flex flex-wrap justify-center">
                 <Link href= {"/Blog-Posts/Air-Travel-Blog"}>
                 <Card
@@ -99,7 +97,7 @@ function AllBlogs() {
   )
 }
 
-export default AllBlogs
+export default AllBlog
 
 
 

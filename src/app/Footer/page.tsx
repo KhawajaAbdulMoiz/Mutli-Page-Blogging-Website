@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <div>
-                <ul className='flex gap-4 text-customPurple text-font justify-center mt-[10%] font-raleway sm: text-[11.49px]'>
+                <ul className='flex gap-4 text-customPurple text-font text-[11.49px] justify-center mt-[10%] font-raleway sm:text-[11.49px] md:text-[15px] lg:text-[18px] 2xl-text[20px]'>
                     <li className='transition-all duration-300 ease-in-out cursor-pointer transform hover:translate-y-[-2px]'>Home</li>
                     <li className='transition-all duration-300 ease-in-out cursor-pointer transform hover:translate-y-[-2px]'>Blog</li>
                     <li className='transition-all duration-300 ease-in-out cursor-pointer transform hover:translate-y-[-2px]'>About</li>

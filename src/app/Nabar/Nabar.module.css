@@ -1,49 +1,79 @@
 .navbar {
-    width: 100%;
-    z-index: 50;
-    padding: 5px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navbar__image {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .navbar__ul {
-    display: flex;
-    font-family: Raleway;
-    gap: 25px;
-    text-align: left;
-  }
-  
-  .navbar__li {
-    transition: transform 0.5s ease-in-out;
-   
-  }
-  
-  .navbar__li:hover {
-    transform: translateY(-2px);
-    transition: transform 0.5s ease-in-out;
-    color:var(--primary-color); 
-  
-  }
- 
+  width: 100%;
+  z-index: 50;
+  padding: 5px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .navbar__button {
-    transition: transform 0.5s ease-in-out;
-    background-color:var(--primary-color);
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border-radius: 0.375rem;
-    
+.navbar__image {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar__ul {
+  display: flex;
+  font-family: Raleway;
+  gap: 25px;
+  text-align: left;
+}
+
+.navbar__li {
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbar__li:hover {
+  transform: translateY(-2px);
+  color: var(--primary-color); 
+}
+
+.navbar__button {
+  transition: transform 0.5s ease-in-out;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.375rem;
+}
+
+.navbar__button:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-color);
+}
+
+
+.desktopOnly {
+  display: flex;
+}
+
+
+.mobileMenuIcon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.mobileMenu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .desktopOnly {
+    display: none;
   }
   
-  .navbar__button:hover {
-    transform: translateY(-2px);
-    transition: transform 0.5s ease-in-out;
-    background-color:var(--primary-color); 
+  .mobileMenuIcon {
+    display: block;
   }
-  
+}

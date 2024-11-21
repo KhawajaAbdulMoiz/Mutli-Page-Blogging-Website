@@ -2,7 +2,9 @@
 import HomePage from "./HomePage/home";
 import OurPosts from "./RecentPost/page";
 import Blogs2 from "./OurPosts2/page";
-import Blog3 from "./OurPosts3/page";
+import AllBlogs from "./Blogs/page";
+import AllBlog from "./Blogs/AllBlog";
+
 
 
 
@@ -13,7 +15,7 @@ export default function Home() {
       <HomePage/>
       <OurPosts/>
       <Blogs2/>
-      <Blog3/>
+      <AllBlog/>
       
 
     </div>

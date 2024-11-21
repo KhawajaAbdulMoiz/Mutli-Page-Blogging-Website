@@ -1,24 +1,32 @@
 .contianer{
     border-radius: 20px;
-    padding: 50px 5%;
-    margin: 25% 30%;
-    position: absolute;
+    padding: 20px 5%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
     background-color: aliceblue;
     height: 390px;
     width: 960px;
+    box-sizing: border-box; 
+   
+   
 
 }
 
+
 .recent_post_heading {
-    font-size: 32px;
+    font-size: 22.98px;
     font-weight: bold;
     font-family: var(--font);
     color: var(--secondary-color);
+    width: auto;
+    padding-right: 73%;
 }
 .recent_post_text {
-    font-size: 16px;
+    padding-right: 73%;
+    font-size: 11.49px;
     font-family: var(--font);
     color: var(--secondary-color);
 }
@@ -26,9 +34,12 @@
    
     color: var(--primary-color);
     margin-top: 4%;
+    
     border-radius: 9px;
     padding: 1% 2%;
-    border: 1px solid var(--primary-color);
+    height: 44.72px;
+    width: 118.75px;
+    border: 1px solid var(--secondary-color);
     transition: transform 0.5s ease-in-out;
 }
 
@@ -43,81 +54,113 @@
     padding: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    font-size: 48px;
+    font-size: 15px;
     font-weight: bold;
     font-family: Raleway;    
 }
 
-@media (min-width: 350px) and (max-width: 480px){
-    .recent_post_heading {
-        font-size: 22.98px;   
+@media (min-width: 768px) {
+    .main_heading{
+        font-size: 45.95px; 
     }
-    .recent_post_text {
-        font-size: 11.49px;
+    .main_subtext{
+        font-size: 10px; 
+    }
+    .main {
+       
+        display: flex;
+        flex-direction:row;
+        height: 82vh;
     }
     .contianer{
-        top: 166px;
-        left: -100px;
-        height: 88vh;
-        width: 410px;
-    }    
-    .main_heading{
-        margin-top: 63%;
-        padding-top: 62px;
-        margin-bottom: -73px;
-        margin-left: 3rem;
-        font-size: 22px;
+        position: absolute;
+        top: 143px;
+        left: 116px;
+        background-color: aliceblue;
+        height: 390px;
+        width: 560px;
+        box-sizing: border-box;
+
+    
+    }
+    .main_image{
+       
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 280px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    .recent_post_text {
+        padding: 0;
+        font-size: 11.49px;
+       
+    }
+    .recent_post_heading {
+        padding: 0;
+        font-size: 22.98px;
+        font-weight: bold;
         
+        
+    }
+    .navbar__button {
+        margin-top: 6%;
+        padding: 0.2rem 1.2rem;
+       
+      
     }
     
 }
-
-
-@media (max-width: 640px){
-    .recent_post_heading {
-        font-size: 22.98px;   
+@media (min-width: 1024px) {
+    .main_heading{
+        font-size: 45.95px; 
     }
-    .recent_post_text {
-        font-size: 11.49px;
+    .main_subtext{
+        font-size: 10px; 
+    }
+    .main {
+       
+        display: flex;
+        flex-direction:row;
+        height: 82vh;
     }
     .contianer{
-        top: 166px;
-        left: -100px;
-        height: 380px;
-        width: 410px;
-    }    
-    .main_heading{
-        margin-top: 63%;
-        padding-top: 62px;
-        margin-bottom: -73px;
-        margin-left: 3rem;
-        font-size: 22px;
-        
-    }
-    
-}
+        position: absolute;
+        top: 143px;
+        left: 116px;
+        background-color: aliceblue;
+        height: 390px;
+        width: 560px;
+        box-sizing: border-box;
 
     
-/* 
-@media (max-width: 748px){
-    .recent_post_heading {
-        font-size: 22.98px;   
+    }
+    .main_image{
+       
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 280px;
+        height: 280px;
+        margin-top: 20px;
     }
     .recent_post_text {
+        padding: 0;
         font-size: 11.49px;
+       
     }
-    .contianer{
-        top: 166px;
-        left: -100px;
-        height: 413.58px;
-        width: 884.61px;
-    }    
-    .main_heading{
-        margin-top: 63%;
-        padding-top: 62px;
-        margin-bottom: -73px;
-        margin-left: 3rem;
-        font-size: 22px;
+    .recent_post_heading {
+        padding: 0;
+        font-size: 22.98px;
+        font-weight: bold;
+        
         
     }
-} */
+    .navbar__button {
+        margin-top: 6%;
+        padding: 0.2rem 1.2rem;
+       
+      
+    }
+    
+} 
+ 

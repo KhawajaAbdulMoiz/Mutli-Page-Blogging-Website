@@ -4,8 +4,8 @@ export default function Engage() {
   return (
     <div>
        
-      <div className="container bg-customPurple h-[295px] ml-[1.8%] sm: h-[395px]">
-        <h1 className='text-center text-bold text-[24px] font-200 font-raleway text-black text-white pt-[10%] sm: text-[40px] md: text-[37.34px]'>
+      <div className="container bg-customPurple h-[295px] ml-[1.8%] sm:w-full sm:h-full md:w-full md:h-[300px] lg:w-full lg:h-[500px]">
+        <h1 className='text-center text-bold text-[24px] font-200 font-raleway text-black text-white pt-[10%] sm:text-[30px] md:text-[37.34px] lg:text-[52px]'>
         Get our stories delivered From<br/> us to your inbox weekly.
         </h1>
         <div className='flex gap-2 justify-center font-200 font-raleway'>
