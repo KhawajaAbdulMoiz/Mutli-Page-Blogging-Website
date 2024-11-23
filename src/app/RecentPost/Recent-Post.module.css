@@ -126,15 +126,15 @@
     }
     .contianer{
         position: absolute;
-        top: 143px;
-        left: 116px;
+        top: 128px;
+        left: 33.5%;
         background-color: aliceblue;
-        height: 390px;
-        width: 560px;
-        box-sizing: border-box;
+        height: 379px;
+        width: 556px;
 
     
     }
+    
     .main_image{
        
         margin-left: 24px;
@@ -163,4 +163,35 @@
     }
     
 } 
+@media (min-width: 1440px) {
  
+    .recent_post_text {
+        padding: 0;
+        font-size: 14.49px;
+       
+    }
+    .recent_post_heading {
+        padding: 0;
+        font-size: 31.98px;
+        font-weight: bold;
+        
+        
+    }
+    .contianer{
+        position: absolute;
+        top: 128px;
+        left: 33.5%;
+        background-color: aliceblue;
+        height: 432px;
+        width: 780px;
+    
+    }
+    .main_image{
+       
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 280px;
+        height: 280px;
+        margin-top: 20px;
+    }
+}

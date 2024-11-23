@@ -5,6 +5,7 @@ import styles from './Nabar.module.css';
 import Link from 'next/link';
 import Loading from './loading';
 
+
 function Navbar() {
   const [isLoading, setIsLoading] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,7 +29,8 @@ function Navbar() {
 
   return (
     <div className={styles.navbar}>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap" />
+   
+      
       <Image 
         src="/Flara.png"  
         alt="Logo"

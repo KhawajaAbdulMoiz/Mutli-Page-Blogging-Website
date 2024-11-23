@@ -4,6 +4,15 @@ import "./globals.css";
 import Navbar from "./Nabar/page";
 import Footer from "./Footer/page";
 import Engage from "./Audience-Engage/page";
+import {Raleway} from 'next/font/google'
+
+
+const RalewayFont = Raleway({
+  
+  variable: "--font-raleway",
+  subsets: ['latin'],
+});
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +41,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-            <main>{children}</main>
+            <main className={RalewayFont.variable}>{children}</main>
             <Engage/>
           <Footer />
       </body>

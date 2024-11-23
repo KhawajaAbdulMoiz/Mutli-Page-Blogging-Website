@@ -1,3 +1,4 @@
+
 import styles from '@/app/RecentPost/Recent-Post.module.css';
 import '@/app/OurPosts2/OurPosts2.module.css'
 import React from 'react'
@@ -16,7 +17,7 @@ function Blogs2() {
                 alt="Logo"
                 width={712}
                 height={456}
-                className='ml-[12%] sm:w-[286.24px] sm:h-[300px] md:w-[386.24px] md:h-[300px] md:mt-[15%] lg:w-[712px] lg:h-[256px] lg:mt-[4%]'
+                className='ml-[12%] sm:w-[286.24px] sm:h-[300px] md:w-[386.24px] md:h-[300px] md:mt-[15%] lg:w-[712px] lg:h-[381px] lg:mt-[4%]'
 
 
             />

@@ -14,7 +14,7 @@
 
 .navbar__ul {
   display: flex;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   gap: 25px;
   text-align: left;
 }

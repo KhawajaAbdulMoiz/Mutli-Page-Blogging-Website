@@ -14,7 +14,6 @@
 .recent_post_heading {
     font-size: 32px;
     font-weight: bold;
-    font-family: var(--font);
     color: var(--secondary-color);
     gap: 20px;
 
@@ -38,4 +37,40 @@
     transform: translate(0, -2px);
     transition: transform 0.5s ease;
     
+}
+@media (min-width: 1024px) {
+    .contianer2{
+        border-radius: 20px;
+        padding: 50px 5%;
+        margin: 25% 30%;
+        position: relative;
+        left: 0;
+        background-color: aliceblue;
+        height: 390px;
+        width: 960px;
+        
+    
+    }
+    .recent_post_heading {
+        font-size: 32px;
+    
+    }
+    .recent_post_text {
+        font-size: 16px;
+        
+    }
+}
+@media (min-width: 1440px) {
+    
+        
+    
+    
+    .recent_post_heading {
+        font-size: 82px;
+    
+    }
+    .recent_post_text {
+        font-size: 16px;
+        
+    }
 }

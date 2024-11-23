@@ -2,7 +2,6 @@
 import HomePage from "./HomePage/home";
 import OurPosts from "./RecentPost/page";
 import Blogs2 from "./OurPosts2/page";
-import AllBlogs from "./Blogs/page";
 import AllBlog from "./Blogs/AllBlog";
 
 
