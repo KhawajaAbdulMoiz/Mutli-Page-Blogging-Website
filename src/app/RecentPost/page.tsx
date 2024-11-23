@@ -5,7 +5,7 @@ function OurPosts() {
     return (
         <div className="rounded-[20px] p-[5px_8%] relative mt-10 p-4">
             <Image
-                src="/Container.jpg"
+                src="/container.jpg"
                 alt="Logo"
                 width={1232}
                 height={576}

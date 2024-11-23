@@ -12,10 +12,10 @@ export default function Contact() {
           alt="Logo"
           width={70}
           height={70}
-          className="mb-2 rounded-full ml-[5.5%]"
+          className="mb-2 rounded-full ml-[2.5%]"
         />
-        <h2 className="text-center mt-[2%] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-customPurple sm: text-[22px] pl-[0rem]">Email</h2>
-        <h3 className="text-center mb-[110px] ml-[5rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-gray-500 sm: text-[16px] pl-[0rem]">contactabdulmoiz2005@gmail.com</h3>
+        <h2 className="text-center mt-[2%] ml-[2.3rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-customPurple sm: text-[22px] pl-[0rem]">Email</h2>
+        <h3 className="text-center mb-[110px] ml-[2.3rem] p-[0.5rem] pl-[1.5rem] pr-[1.5rem] text-[16px] font-200 font-raleway text-gray-500 sm: text-[16px] pl-[0rem]">contactabdulmoiz2005@gmail.com</h3>
       </div>
       <div className="max-w-md md:max-w-lg lg:max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
         <form className="space-y-4">

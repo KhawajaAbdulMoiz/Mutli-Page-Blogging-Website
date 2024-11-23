@@ -10,6 +10,9 @@
 .navbar__image {
   width: 100px;
   height: 100px;
+  margin-left: -9%;
+  padding-top: 2%;
+  
 }
 
 .navbar__ul {
@@ -67,7 +70,6 @@
   gap: 15px;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
   .desktopOnly {
     display: none;
@@ -75,5 +77,15 @@
   
   .mobileMenuIcon {
     display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__image {
+    width: 150px;
+    height: 150px;
+    margin-left: -9%;
+   
+ 
+ 
   }
 }
